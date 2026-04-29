@@ -1,0 +1,9 @@
+.navbar-brand{
+    padding-right: 100px;
+}
+.collapse ul li a{
+    color: #0D0E43;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
