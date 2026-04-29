@@ -1,9 +1,29 @@
 .navbar-brand{
-    padding-right: 100px;
+    padding-right: 50px;
 }
-.collapse ul li a{
+.navbar1 ul li a{
     color: #0D0E43;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
+}
+.navbar1 ul li{
+    padding-left: 30px;
+}
+.navbar1 ul li a:hover{
+    color: #FB2E86;
+}
+form{
+    position: relative;
+}
+.btn{
+    padding: 6px 8px;
+    background-color: #FB2E86;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+}
+.form-control{
+    background-color: #D9D9D9;
 }
