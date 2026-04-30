@@ -27,3 +27,6 @@ form{
 .form-control{
     background-color: #D9D9D9;
 }
+.btn:hover{
+    background-color: #FB2E86;
+}
