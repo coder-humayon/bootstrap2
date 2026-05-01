@@ -236,7 +236,37 @@ form{
     font-family: 'Josefin Sans', sans-serif;
 }
 .leatest2{
+    padding-bottom: 54px;
     display: flex;
     justify-content: center;
     gap: 50px;
+}
+.leatest2 li{
+    font-size: 18px;
+    color: #151875;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.leatest2 li:hover{
+    border-bottom: 3px solid red;
+    transition: ease-out 0.3s ;
+    color: red;
+}
+.leatest3{
+    display: flex;
+    justify-content: space-between;
+}
+.leatest5{
+    padding: 15px 50px;
+    background-color:#F6F7FB ;
+    position: relative;
+}
+.licon{
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+}
+.licon a{
+    display: block;
+    padding-bottom: 15px;
 }
