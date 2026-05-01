@@ -1,3 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ol li{
+    list-style-type: none;
+}
+
+/* header */
+header{
+    padding: 14px 0px;
+    background-color: #7E33E0;
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header4 {
+    display: flex;
+    gap: 50px;
+}
+.header4 a{
+    font-size: 16px;
+    color: #F1F1F1;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+}
+.header2{
+    display: flex;
+    gap: 26px;
+}
+.header5 a{
+    font-size: 16px;
+    color: #F1F1F1;
+    font-weight: 600;
+    padding-left: 16px;
+    font-family: "Lato", sans-serif;
+}
+.header6 a{
+    font-size: 16px;
+    color: #F1F1F1;
+}
+/* navber */
 .navbar-brand{
     padding-right: 50px;
 }
@@ -29,4 +76,150 @@ form{
 }
 .btn:hover{
     background-color: #FB2E86;
+}
+/* banner */
+#mansur_hed{
+    background-color: #F2F0FF;
+    /* padding: 0px 40px; */
+    padding-bottom: 40px;
+}
+.mansur_20{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.mansur_23{
+    padding-top: 100px;
+}
+.mansur_23 h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FB2E86;
+
+}
+.mansur_23 h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: #000;
+}
+.mansur_23 p {
+     font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #8A8FB9;
+
+}
+.mansur_23 button{
+    padding: 5px 10px;
+    background-color: #FB2E86;
+    color: #fff;
+    border: none;
+    text-align: center;
+}
+.mansur_24{
+    padding-top: 20px;
+}
+/* product */
+#product{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.product1 h2{
+    text-align: center;
+    font-size: 42px;
+    color: #1A0B5B;
+    font-weight: 400;
+    padding-bottom: 48px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.product2{
+    display: flex;
+    justify-content: space-between;
+}
+.product3{
+    padding: 11px 60px;
+    background-color: #F6F7FB;
+}
+.picon{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.picon i {
+    color: #F6F7FB;
+}
+.pimage img{
+    display: block;
+    margin: auto;
+}
+.pbtn{
+    text-align: center;
+}
+.pbtn button{
+    padding: 4px 10px;
+    color: #F1F1F1;
+    border: none;
+    background-color: #08D15F;
+}
+.ptext{
+    padding: 15px;
+    text-align: center;
+}
+.ptext h3{
+    font-size: 18px;
+    color: #FB2E86;
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.i1{
+    color: #05E6B7;
+    font-size: 25px;
+}
+.i2{
+    color: #F701A8;
+    font-size: 25px;
+}
+.i3{
+    color: #00009D;
+    font-size: 25px;
+}
+.ptext h5{
+    font-size: 14px;
+    color: #151875;
+    font-weight: 400;
+    padding: 5px 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.ptext span{
+    font-size: 14px;
+    color: #151875;
+    font-weight: 400;
+    padding: 5px 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.phover:hover .picon i{
+    color: #00009D;transition: all ease-in 0.5s;
+} 
+.phover:hover .ptext{
+    background-color: #00009D;
+    color: #00009D;transition: all ease-in 0.5s;
+}
+.phover:hover .ptext h3{
+    color: #F1F1F1;
+}
+.phover:hover .ptext h5{
+    color: #F1F1F1;
+}
+.phover:hover .ptext span{
+    color: #F1F1F1;
+}
+.phover:hover .ptext .i3{
+    color: #F1F1F1;
+}
+.phover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 4px 16px 0px;
 }
