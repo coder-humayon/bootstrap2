@@ -270,3 +270,11 @@ form{
     display: block;
     padding-bottom: 15px;
 }
+.leatest6{
+    display: flex;
+    justify-content: space-between;
+}
+.leatest7{
+    display: flex;
+    gap: 8px;
+}
