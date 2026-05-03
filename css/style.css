@@ -225,7 +225,7 @@ form{
 }
 /* Leatest */
 #Leatest{
-    padding-bottom: 130px;
+    padding-bottom: 80px;
 }
 #Leatest h2{
     padding-bottom: 15px;
@@ -303,6 +303,7 @@ form{
 }
 .leatest5:hover{
     background-color: transparent;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 .leatest6 strong{
     font-size: 16px;
@@ -326,10 +327,39 @@ form{
 #leatest1{
     padding-bottom: 100px;
 }
+/* suppor */
 #suppor{
     padding-bottom: 100px;
 }
 .suppor1{
+    text-align: center;
     padding: 50px 26px 45px 26px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 4px 16px 0px;
+}
+#suppor h3{
+    color: black;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+.suppor1 h4{
+    color: #151875;
+    font-size: 22px;
+    padding-top: 20px;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.suppor1 span{
+    color: #1A0B5B;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* uninque */
+#unique{
+    margin-bottom: 100px ;
+    padding: 15px 0;
+    background-color: #F1F0FF;
 }
