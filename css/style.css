@@ -521,3 +521,31 @@ form{
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
 }
+.d2{
+    align-items: center;
+}
+.d3{
+    display: flex;
+    justify-content: space-between;
+}
+.dtext h3{
+    padding-bottom: 15px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #151875;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.dtext h5{
+    padding-bottom: 15px;
+    font-size: 3p0x;
+    font-weight: 400;
+    color: #FB2E86;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.dtext p{
+    padding-bottom: 16px;
+    font-size: 3p0x;
+    font-weight: 400;
+    color: #B7BACB;
+    font-family: 'Josefin Sans', sans-serif;
+}
