@@ -408,3 +408,45 @@ form{
     font-weight: 400;
     font-family: 'Josefin Sans', sans-serif;
 }
+/* trending */
+#trending{
+    padding-bottom: 100px ;
+}
+#trending h3{
+    text-align: center;
+    font-size: 42px;
+    color: #151875;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 30px;
+}
+.trending1{
+    padding: 12px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 3px 10px 0px;
+}
+.trending2{
+    text-align: center;
+    padding: 25px;
+    background-color: #F5F6F8;
+}
+.trending3{
+    text-align: center;
+    padding-top: 15px;
+}
+.trending3 strong{
+    font-size: 16px;
+    color: #151875;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.trending3 p span{
+    padding-left: 10px;
+    font-size: 12px;
+    color: #15187549;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.tre{
+    gap: 20px;
+}
