@@ -363,3 +363,48 @@ form{
     padding: 15px 0;
     background-color: #F1F0FF;
 }
+.unique1{
+    margin: auto;
+    align-items: center;
+}
+.unique2{
+    margin-left: 70px;
+}
+.unique2 h3{
+    font-size: 30px;
+    color: #151875;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.unique2 span{
+    font-size: 16px;
+    color: #ACABC3;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.unique3{
+    margin-top: 35px;
+    gap: 19px;
+}
+.unique4 button{
+    padding: 12px 20px;
+    font-size: 15px;
+    color: #FFFF;
+    font-weight: 500;
+    background-color: #FB2E86;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.unique5 strong{
+    font-size: 13px;
+    color: #151875;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.unique5 p{
+    font-size: 13px;
+    color: #151875;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
