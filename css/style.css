@@ -728,3 +728,39 @@ form{
 .bmain{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 5px 18px 0px;
 }
+/* footer */
+#footer1{
+    padding: 95px 0 100px 0;
+    background-color: #EEEFFB;
+}
+.f1{
+    padding-bottom: 25px;
+}
+.f2 form input{
+    font-size: 16px;
+    color: #8A8FB9;
+    width: 100%;
+    outline: 0;
+    border-radius: 3px;
+    border: none;
+    padding: 14px 20px 11px 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.f2 form button{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    padding: 11px 35px;
+    border-radius: 3px;
+    border: none;
+    background-color: #FB2E86;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.f2 form{
+    position: relative;
+}
+.f2 form button{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
