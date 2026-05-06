@@ -656,4 +656,75 @@ form{
     padding: 10px 25px;
     border: none;
     background-color: #FB2E86;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.nimg2{
+    padding-top: 86px;
+    margin: auto;
+}
+/* blog */
+#blog{
+    padding-bottom: 100px;
+}
+#blog h3{
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: 42px;
+    color: #151875;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.blog1 img{
+    border-radius: 8px;
+}
+.blog2{
+    padding: 20px 0px 35px 15px;
+}
+.blog2 strong{
+    font-size: 14px;
+    color: #151875;
+    font-weight: 400;
+    padding-right: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.blog2 strong i{
+    padding-right: 20px;
+    color:#FB2E86;
+}
+.blog2 span{
+    font-size: 14px;
+    color: #151875;
+    font-weight: 400;
+    padding-right: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.blog2 span i{
+    padding-right: 20px;
+    color:#FFA454;
+}
+.blog2 h6{
+    font-size: 20px;
+    color: #151875;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.blog2 p{
+    font-size: 16px;
+    color: #72718F;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.blog2 a{
+    font-size: 16px;
+    color: #151875;
+    line-height: 30px;
+    font-weight: 400;
+    border-bottom: 1px solid;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.bmain{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 5px 18px 0px;
 }
