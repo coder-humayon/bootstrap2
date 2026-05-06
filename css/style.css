@@ -733,6 +733,15 @@ form{
     padding: 95px 0 100px 0;
     background-color: #EEEFFB;
 }
+.humayun7{
+    gap: 30px;
+}
+.fmain{
+    width: 30%;
+}
+.fmain2{
+    width: 20%;
+}
 .f1{
     padding-bottom: 25px;
 }
@@ -763,4 +772,37 @@ form{
     position: absolute;
     right: 0;
     bottom: 0;
+}
+.f2 p{
+    font-size: 14px;
+    color: #8A8FB9;
+    font-weight: 400;
+    padding-top: 25px;
+    margin-bottom: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.f2 strong{
+    font-size: 13px;
+    color: #8A8FB9;
+    font-weight: 400;
+    padding-top: 25px;
+    margin-bottom: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.f3 h4{
+    margin-bottom: 30px;
+    font-size: 22px;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.f3 ul{
+    padding-left: 0;
+}
+.f3 ul li{
+    font-size: 16px;
+    color: #8A8FB9;
+    font-weight: 400;
+    padding-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
 }
