@@ -561,7 +561,6 @@ form{
     border: none;
     font-family: 'Josefin Sans', sans-serif;
 }
-/* categories  */
 #categories{
     padding-bottom: 100px;
 }
@@ -584,8 +583,6 @@ form{
 .cat_item h6{
     padding-top: 20px;
 }
-
-/* circle */
 .cat_img{
     width: 220px;
     height: 220px;
@@ -597,14 +594,10 @@ form{
     align-items: center;
     overflow: hidden;
 }
-
-/* image */
 .cat_img img{
     width: 120px;
     z-index: 2;
 }
-
-/* button */
 .view_btn{
     position: absolute;
     bottom: 20px;
@@ -615,8 +608,6 @@ form{
     display: none;
     z-index: 3;
 }
-
-/* 🔥 hover border effect */
 .cat_img::after{
     content: "";
     position: absolute;
@@ -630,21 +621,17 @@ form{
     opacity: 0;
     transition: 0.4s;
 }
-
-/* hover করলে show হবে */
 .cat_img:hover::after{
     opacity: 1;
     transform: rotate(40deg);
 }
-
-/* button hover এ show */
 .cat_img:hover .view_btn{
     display: block;
 }
 /* newslater */
 #newslater{
     text-align: center;
-    padding-bottom: 80px;
+    padding-bottom: 96px;
 }
 .nimg{
     text-align: center;
@@ -655,4 +642,18 @@ form{
     top: 38%;
     left: 35%;
     text-align: center;
+}
+.newslater1 h3{
+    font-size: 30px;
+    color: #151875;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.newslater1 button{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    padding: 10px 25px;
+    border: none;
+    background-color: #FB2E86;
 }
