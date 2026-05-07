@@ -806,3 +806,37 @@ form{
     padding-bottom: 20px;
     font-family: 'Josefin Sans', sans-serif;
 }
+/* footer */
+#footer{
+    padding: 17px 0;
+    background-color: #E7E4F8;
+}
+.f4{
+    margin: auto;
+    justify-content: space-between;
+    padding-left: 80px;
+    align-items: center;
+}
+.f6{
+    text-align: right;
+    padding-right: 120px;
+}
+.f5 strong{
+    font-size: 16px;
+    color: #9DA0AE;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.f6 a{
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 40px;
+    display: flex;
+    display: inline;
+    align-items: center;
+    background-color: #000;
+}
+.f6 a i{
+    color: #FFFFFF;
+}
