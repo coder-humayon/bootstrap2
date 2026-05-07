@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+/* shop1 */
+#shop1{
+    margin-bottom: 120px;
+    padding-top: 100px;
+    padding-bottom: 126px;
+    background-color: #F6F5FF;
+}
+.shop2 h3{
+    font-size:36px ;
+    color:#101750 ;
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.shop2 p{
+    font-size:16px ;
+    color:#000000 ;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.shop2 p span{
+    font-size:16px ;
+    color:#FB2E86 ;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* ecommerce */
+#ecommerce{
+    padding-bottom: 130px;
+}
+.e{
+    align-items: center;
+    justify-content: space-between;
+}
+.e1 h3{
+    font-size:22px ;
+    color:#151875 ;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.e1 p{
+    font-size:14px ;
+    color:#8A8FB9 ;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.e2{
+    display: flex;
+    justify-content: space-between;
+}
+.e3 input{
+    width: 60px;
+    height: 25px;
+    outline: 0;
+}
+.e3 #e3{
+    width: 96px;
+    height: 25px;
+    font-size: 12px;
+    text-align: center;
+}
+.e3 #e4{
+    width: 162px;
+    height: 25px;
+}
+.e3 span{
+    font-size:16px ;
+    color:#3F509E ;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
