@@ -104,3 +104,6 @@ ul li{
 .prtxt{
     text-align: center;
 }
+.prtxt i{
+    font-size: 12px;
+}
