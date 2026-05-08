@@ -36,7 +36,7 @@ ul li{
 }
 /* ecommerce */
 #ecommerce{
-    padding-bottom: 130px;
+    padding-bottom: 30px;
 }
 .e{
     align-items: center;
@@ -78,4 +78,26 @@ ul li{
     color:#3F509E ;
     font-weight: 400;
     font-family: 'Josefin Sans', sans-serif;
+}
+/* product */
+#product{
+    padding-bottom: 80px;
+}
+.product2{
+    padding: 45px;
+    background-color: #F6F7FB;
+}
+.product1{
+    position: relative;
+}
+#picon{
+    position: absolute;
+    bottom: 24px;
+    left: 11px;
+}
+#picon a{
+    display: block;
+    margin-bottom: 10px;
+    color: #3F509E;
+    opacity: 0;
 }
