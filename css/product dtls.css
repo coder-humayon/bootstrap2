@@ -1,0 +1,13 @@
+#chair{
+    padding-bottom: 100px;
+}
+.c1{
+    padding: 13px;
+}
+.cimg img{
+    margin-bottom: 10px;
+}
+
+.cimg:last-child img{
+    margin-bottom: 0;
+}
