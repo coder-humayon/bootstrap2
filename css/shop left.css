@@ -1,0 +1,14 @@
+#p_brand{
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.p_brand1{
+    display: flex;
+    justify-content: space-between;
+}
+.p_brand2{
+    width: 20%;
+}
+.p_brand3{
+    width: 80%;
+}
