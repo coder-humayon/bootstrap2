@@ -13,7 +13,7 @@
     margin-bottom: 0;
 }
 .ctext{
-    margin: 100px 0;
+    margin-top: 50px ;
 }
 .ctext h4{
     font-size: 36px;
@@ -133,4 +133,25 @@
     padding-bottom: 50px;
     color: #101750;
     font-family: 'Josefin Sans', sans-serif;
+}
+.rl2{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.rltxt strong{
+    font-size: 16px;
+    font-weight: 500;
+    color: #151875;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.rltxt p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #151875;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.rlicon i{
+    color: #FFC416;
+    font-size: 12px;
 }
