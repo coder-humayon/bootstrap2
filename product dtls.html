@@ -190,6 +190,22 @@
             </div>
         </div>
     </section>
+    <!-- Description -->
+    <section id="dis">
+        <div class="container">
+            <div class="dmenue">
+                <a class="active" href="#">Description</a>
+                <a href="#">Additional Info</a>
+                <a href="#">Reviews</a>
+                <a href="#">Video</a>
+            </div>
+            <div class="dis">
+                <h6>Varius tempor.</h6>
+                <p>Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .</p>
+                <a href="">More details</a>
+            </div>
+        </div>
+    </section>
     <!-- newslater -->
     <section id="newslater">
         <div class="container">
@@ -276,7 +292,21 @@
     </footer>
 
 
+    <script>
+        let menus = document.querySelectorAll(".dmenue a");
 
+        menus.forEach((item) => {
+            item.addEventListener("click", function () {
+
+                menus.forEach((link) => {
+                    link.classList.remove("active");
+                });
+
+                this.classList.add("active");
+
+            });
+        });
+    </script>
 
 
     <script src="js/bootstrap.min.js"></script>

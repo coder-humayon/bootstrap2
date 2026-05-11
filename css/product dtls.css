@@ -64,3 +64,36 @@
     padding-bottom: 10px;
     font-family: 'Josefin Sans', sans-serif;
 }
+/* description */
+#dis{
+    padding: 100px 0;
+    background-color: #F9F8FE;
+    margin-bottom: 100px;
+}
+.dmenue{
+    display: flex;
+    gap: 75px;
+}
+
+.dmenue a {
+    font-size: 24px;
+    font-weight: 600;
+    color: #151875;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/* Active Menu */
+.dmenue a.active{
+    border-bottom: 2px solid black;
+}
+.dis{
+    padding-top: 50px;
+}
+.dis h5{
+    font-size: 22px;
+    color: #0D134E;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 10px;
+}
