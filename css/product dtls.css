@@ -3,6 +3,7 @@
 }
 .c1{
     padding: 13px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 2px 4px 0px, rgba(60, 64, 67, 0.15) 0px 4px 12px 4px;
 }
 .cimg img{
     margin-bottom: 10px;
@@ -11,13 +12,55 @@
 .cimg:last-child img{
     margin-bottom: 0;
 }
-.ctext h4{
-    font-size: ;
-    color: ;
-    font-weight: ;
+.ctext{
+    margin: 100px 0;
 }
 .ctext h4{
-    font-size: ;
-    color: ;
-    font-weight: ;
+    font-size: 36px;
+    color:#0D134E ;
+    font-weight:600 ;
+    padding-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.ctext i{
+    /* font-size: 36px; */
+    color:#FFC416 ;
+    font-weight:600 ;
+    padding-bottom: 20px;
+}
+.ctext p{
+    font-size: 16px;
+    color:#151875 ;
+    font-weight:400 ;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.ctext p span{
+    font-size: 16px;
+    color:red ;
+    font-weight:400 ;
+    margin-left: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.ctext strong{
+    display: block;
+    font-size: 16px;
+    color:#151875 ;
+    font-weight:600 ;
+    padding-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.ctext h6{
+    font-size: 16px;
+    color:#A9ACC6 ;
+    line-height: 29px;
+    font-weight:400 ;
+    padding-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.ctext h5{
+    font-size: 16px;
+    color:#151875 ;
+    font-weight:400 ;
+    padding-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
 }
