@@ -20,22 +20,30 @@
     color: #1D3178;
     font-size: 20px;
     font-weight: 600;
-    margin-right: 120px;
+    margin-right: 140px;
     font-family: 'Josefin Sans', sans-serif;
 }
-.crht h4{
+.h2 ul li:last-child{
+    margin-right: 0;
+}
+.crht{
     text-align: center;
+}
+.crht h4{
     color: #1D3178;
     font-size: 20px;
     font-weight: 600;
-    margin-right: 120px;
     font-family: 'Josefin Sans', sans-serif;
 }
 .c1{
     display: flex;
     justify-content: space-between;
 }
-.c1{
+.cr1{
     display: flex;
     justify-content: space-between;
+}
+.cr2{
+    display: flex;
+    gap: 20px;
 }
