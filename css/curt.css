@@ -2,6 +2,7 @@
     padding-bottom: 100px;
 }
 .manue{
+    padding-bottom: 40px;
     display: flex;
     justify-content: space-between;
 }
@@ -13,4 +14,24 @@
 }
 .h2 ul {
     display: flex;
+}
+.h2 ul li {
+    margin-bottom: 0;
+    color: #1D3178;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 120px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.crht h4{
+    text-align: center;
+    color: #1D3178;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 120px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.c1{
+    display: flex;
+    justify-content: space-between;
 }
