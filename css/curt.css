@@ -1,0 +1,16 @@
+#curt{
+    padding-bottom: 100px;
+}
+.manue{
+    display: flex;
+    justify-content: space-between;
+}
+.h1 h4{
+    color: #1D3178;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.h2 ul {
+    display: flex;
+}
