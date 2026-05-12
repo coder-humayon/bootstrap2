@@ -46,4 +46,18 @@
 .cr2{
     display: flex;
     gap: 20px;
+    align-items: center;
+}
+.crtext h6{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.crtext p{
+    margin-bottom: 0;
+    color: #A1A8C1;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
 }
