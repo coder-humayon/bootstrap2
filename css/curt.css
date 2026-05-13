@@ -33,6 +33,7 @@
     color: #1D3178;
     font-size: 20px;
     font-weight: 600;
+    padding-bottom: 40px;
     font-family: 'Josefin Sans', sans-serif;
 }
 .c1{
@@ -67,7 +68,6 @@
     align-items: center;
 }
 .cr4{
-    /* padding-right: 90px; */
     display: flex;
     align-items: center;
 }
@@ -78,6 +78,86 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 .minus{
-    padding: 8px 4px;
+    padding: 4px 8px;
     background-color: #E7E7EF;
+    color: #BEBFC2;
+}
+.one{
+    padding: 4px 8px;
+    background-color: #F0EFF2;
+    color: #BEBFC2;
+}
+.plus{
+    padding: 4px 8px;
+    background-color: #E7E7EF;
+    color: #BEBFC2;
+}
+.cr5{
+    padding-left: 70px;
+    display: flex;
+    align-items: center;
+}
+.cr5 strong{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.clft{
+    padding-bottom: 15px;
+    border-bottom: 1px solid;
+}
+.crfrm{
+    
+    padding: 30px;
+    background-color: #F4F4FC;
+    border-radius: 10px;
+}
+.ct{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #A1A8C1;
+}
+.crt1{
+    font-size:15px ;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.ct2 p {
+    text-align: left;
+    font-size: 12px;
+}
+.ct2 p i{
+    text-align: left;
+    font-size: 12px;
+    margin-right: 10px;
+    padding: 2px;
+    background-color: #19D16F;
+    color: white;
+    border-radius: 5px;
+}
+.crht button{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #F4F4FC;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    background-color: #19D16F;
+}
+#crth{
+    margin-top: 40px;
+}
+.cbtn button{
+    padding: 13px 24px;
+    background-color: fuchsia;
+    font-size: 14px;
+    color: #F4F4FC;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
 }
