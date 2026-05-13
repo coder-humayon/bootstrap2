@@ -1,0 +1,167 @@
+#checkout{
+    padding: 100px 0;
+}
+
+.checkout-form{
+    background: #F8F8FD;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.top-text{
+    margin-bottom: 30px;
+}
+
+.top-text p{
+    font-size: 14px;
+    color: #8A91AB;
+    margin-bottom: 0;
+}
+
+.top-text a{
+    font-size: 14px;
+    color: #8A91AB;
+    text-decoration: none;
+}
+
+.checkout-form h4{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #1D3178;
+}
+
+.checkout-form .form-control{
+    border: none;
+    border-bottom: 1px solid #D7DBE0;
+    border-radius: 0;
+    background: transparent;
+    padding-left: 0;
+    padding-bottom: 15px;
+    margin-bottom: 35px;
+    box-shadow: none;
+}
+
+.checkout-form .form-control::placeholder{
+    color: #9096B2;
+    font-size: 14px;
+}
+
+.check-box{
+    gap: 10px;
+    margin: 20px 0 60px;
+}
+
+.check-box i{
+    width: 16px;
+    height: 16px;
+    background: #19D16F;
+    color: white;
+    font-size: 10px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check-box span{
+    font-size: 13px;
+    color: #8A91AB;
+}
+
+.shipping-title{
+    margin-bottom: 40px !important;
+}
+
+.continue-btn{
+    border: none;
+    background: #FB2E86;
+    color: white;
+    padding: 14px 35px;
+    margin-top: 15px;
+}
+
+.checkout-sidebar{
+    padding-left: 30px;
+}
+
+.product-item{
+    border-bottom: 1px solid #EEEEEE;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.product-item .left{
+    gap: 15px;
+}
+
+.product-item img{
+    width: 80px;
+}
+
+.product-item .text h5{
+    font-size: 15px;
+    color: #1D3178;
+    margin-bottom: 5px;
+}
+
+.product-item .text p,
+.product-item .text span{
+    font-size: 13px;
+    color: #8A91AB;
+    margin-bottom: 0;
+}
+
+.product-item h6{
+    font-size: 15px;
+    color: #1D3178;
+}
+
+.total-box{
+    background: #F4F4FC;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.subtotal{
+    border-bottom: 1px solid #D7DBE0;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.subtotal h5{
+    font-size: 16px;
+    color: #1D3178;
+}
+
+.shipping-text{
+    gap: 10px;
+    margin: 25px 0;
+}
+
+.shipping-text i{
+    color: #19D16F;
+    font-size: 12px;
+}
+
+.shipping-text p{
+    margin-bottom: 0;
+    font-size: 13px;
+    color: #8A91AB;
+}
+
+.checkout-btn{
+    width: 100%;
+    border: none;
+    background: #19D16F;
+    color: white;
+    padding: 14px 0;
+}
+
+@media (max-width:991px){
+
+.checkout-sidebar{
+    padding-left: 0;
+}
+
+}
