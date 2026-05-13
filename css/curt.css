@@ -41,7 +41,7 @@
 }
 .cr1{
     display: flex;
-    justify-content: space-between;
+    gap: 60px;
 }
 .cr2{
     display: flex;
@@ -60,4 +60,28 @@
     font-size: 14px;
     font-weight: 400;
     font-family: 'Josefin Sans', sans-serif;
+}
+.cr3{
+    padding-right: 90px;
+    display: flex;
+    align-items: center;
+}
+.cr4{
+    /* padding-right: 90px; */
+    display: flex;
+    align-items: center;
+}
+.cr3 strong{
+    color: #15245E;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.minus{
+    padding: 8px 4px;
+    background-color: #E7E7EF;
+}
+.minus{
+    padding: 8px 4px;
+    background-color: #E7E7EF;
 }
