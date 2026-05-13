@@ -1,0 +1,13 @@
+#order{
+    padding-bottom: 150px;
+}
+.order1{
+    display: flex;
+    justify-content: space-between
+}
+.o1{
+    margin-top: 50px;
+}
+.o3{
+    margin-top: 400px;
+}
