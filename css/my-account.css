@@ -1,0 +1,80 @@
+#login{
+    padding-bottom: 120px;
+}
+
+.login-box{
+    border-radius: 10px;
+    padding: 20px 60px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background: #fff;
+}
+
+.login-box h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #1D3178;
+    margin-bottom: 10px;
+}
+
+.login-text{
+    font-size: 16px;
+    color: #9096B2;
+    margin-bottom: 40px;
+}
+
+.login-box .form-control{
+    height: 55px;
+    border: 1px solid #E7E6EF;
+    border-radius: 0;
+    margin-bottom: 20px;
+    box-shadow: none;
+    padding-left: 20px;
+}
+
+.login-box .form-control::placeholder{
+    color: #9096B2;
+    font-size: 15px;
+}
+
+.forgot{
+    margin-bottom: 30px;
+}
+
+.forgot a{
+    text-decoration: none;
+    color: #9096B2;
+    font-size: 15px;
+}
+
+.login-btn{
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: #FB2E86;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.create-account{
+    margin-top: 30px;
+}
+
+.create-account p{
+    color: #9096B2;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.create-account a{
+    color: #9096B2;
+    text-decoration: none;
+}
+
+@media (max-width:575px){
+
+.login-box{
+    padding: 40px 25px;
+}
+
+}
