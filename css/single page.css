@@ -513,7 +513,11 @@ RECENT POST
     color: #8A8FB9;
     font-family: "Lato", sans-serif;
 }
-
-/* =========================================
-BLOG DETAILS CSS END
-========================================= */
+.blog_sidebar{
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.shadow{
+    padding: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
