@@ -1,0 +1,240 @@
+/* =========================
+   CONTACT SECTION
+========================= */
+
+.contact-section{
+    padding: 110px 0;
+    background: #fff;
+}
+
+.contact-info h2,
+.contact-way h2,
+.touch-content h2{
+    font-size: 36px;
+    font-weight: 400;
+    color: #151875;
+    margin-bottom: 22px;
+}
+
+.contact-info p,
+.touch-content p{
+    color: #8A8FB9;
+    font-size: 15px;
+    line-height: 28px;
+    max-width: 560px;
+}
+
+/* =========================
+   INFO DOTS
+========================= */
+
+.info-dots{
+    display: flex;
+    gap: 12px;
+    margin-top: 35px;
+}
+
+.info-dots span{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+.dot-one{
+    background: #5625DF;
+}
+
+.dot-two{
+    background: #FB2E86;
+}
+
+.dot-three{
+    background: #37DAF3;
+}
+
+/* =========================
+   CONTACT WAY
+========================= */
+
+.contact-box{
+    border: 2px solid #1E90FF;
+    padding: 20px 25px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px 30px;
+    max-width: 530px;
+}
+
+.contact-item{
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.circle{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-top: 3px;
+}
+
+.purple{
+    background: #5625DF;
+}
+
+.pink{
+    background: #FB2E86;
+}
+
+.orange{
+    background: #FFB265;
+}
+
+.green{
+    background: #1BE982;
+}
+
+.contact-item h5{
+    font-size: 14px;
+    color: #8A8FB9;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.contact-item p{
+    font-size: 13px;
+    color: #8A8FB9;
+    margin: 0;
+    line-height: 22px;
+}
+
+/* =========================
+   GET IN TOUCH
+========================= */
+
+.touch-row{
+    margin-top: 120px;
+}
+
+.touch-content form{
+    margin-top: 35px;
+}
+
+.touch-content input,
+.touch-content textarea{
+    width: 100%;
+    border: 1px solid #D7DBE0;
+    outline: none;
+    padding: 14px 18px;
+    font-size: 14px;
+    color: #151875;
+    transition: .3s;
+    background: transparent;
+}
+
+.touch-content input:focus,
+.touch-content textarea:focus{
+    border-color: #FB2E86;
+}
+
+.touch-content textarea{
+    height: 165px;
+    resize: none;
+}
+
+.touch-content input::placeholder,
+.touch-content textarea::placeholder{
+    color: #8A8FB9;
+}
+
+.send-btn{
+    border: none;
+    background: #FB2E86;
+    color: #fff;
+    padding: 13px 38px;
+    font-size: 14px;
+    margin-top: 25px;
+    transition: .4s;
+    border-radius: 2px;
+}
+
+.send-btn:hover{
+    background: #151875;
+}
+
+.touch-img{
+    text-align: center;
+}
+
+.touch-img img{
+    width: 100%;
+    max-width: 550px;
+    animation: float 4s ease-in-out infinite;
+}
+
+/* =========================
+   ANIMATION
+========================= */
+
+@keyframes float{
+
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-12px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 991px){
+
+    .contact-info,
+    .contact-way,
+    .touch-content{
+        text-align: center;
+    }
+
+    .contact-info p,
+    .touch-content p{
+        margin: auto;
+    }
+
+    .info-dots{
+        justify-content: center;
+    }
+
+    .contact-box{
+        margin: auto;
+    }
+
+    .touch-row{
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 575px){
+
+    .contact-info h2,
+    .contact-way h2,
+    .touch-content h2{
+        font-size: 28px;
+    }
+
+    .contact-box{
+        grid-template-columns: 1fr;
+    }
+
+    .touch-content textarea{
+        height: 140px;
+    }
+}
